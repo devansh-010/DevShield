@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './ui/Button';
 import { motion } from 'framer-motion';
 import { Play, ShieldCheck } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -37,9 +38,11 @@ const Hero = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Button variant="primary" className="h-12 px-8 text-lg">
-                                Start Free Scan
-                            </Button>
+                            <Link to="/scan">
+                                <Button variant="primary" className="h-12 px-8 text-lg">
+                                    Start Free Scan
+                                </Button>
+                            </Link>
                             <Button variant="secondary" className="h-12 px-8 text-lg">
                                 <Play className="w-4 h-4" />
                                 View Demo
