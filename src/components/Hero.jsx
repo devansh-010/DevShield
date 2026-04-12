@@ -28,7 +28,7 @@ const Hero = () => {
                         </div>
 
                         <h1 className="text-5xl md:text-6xl/tight font-bold tracking-tight mb-6 text-white">
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-400">DevShield</span>
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-400">CyberShield</span>
                             <br />
                             Automated Security Testing
                         </h1>
@@ -76,7 +76,7 @@ const Hero = () => {
                             <div className="relative group">
                                 <img
                                     src="/dashPreview.png"
-                                    alt="DevShield Dashboard"
+                                    alt="CyberShield Dashboard"
                                     className="w-full h-auto rounded-xl"
                                 />
 

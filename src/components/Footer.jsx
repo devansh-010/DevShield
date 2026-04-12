@@ -62,7 +62,7 @@ const Footer = () => {
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-slate-500 text-sm">
-                        © 2026 DevShield Inc. All rights reserved.
+                        © 2026 CyberShield Inc. All rights reserved.
                     </p>
                     <div className="flex items-center gap-6 text-sm text-slate-500">
                         <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
